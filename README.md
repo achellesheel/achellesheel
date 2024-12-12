@@ -8,3 +8,4 @@ Kaggler --> https://www.kaggle.com/achellesheel
 achellesheel/achellesheel is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+This chatbot project uses huggingface models which are trained on data.json file. The chatbot answers simple queries whose sample can be checked in "chatbot hugginface.png"
