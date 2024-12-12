@@ -1,0 +1,18 @@
+[
+    {
+        "question": "What is Hugging Face?",
+        "answer": "Hugging Face is a platform that provides tools for natural language processing, including pre-trained models."
+    },
+    {
+        "question": "How do I use a pre-trained model?",
+        "answer": "You can use a pre-trained model by loading it with libraries such as Transformers by Hugging Face."
+    },
+    {
+        "question": "What is a transformer model?",
+        "answer": "A transformer model is an architecture used in NLP tasks that processes input data in parallel, enabling efficient handling of sequences."
+    }
+    
+        {"question": "Fallback", "answer": "I'm sorry, I don't have the answer to that. Can you rephrase or ask something else?"}
+    
+    
+]
