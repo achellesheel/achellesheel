@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Data</title>
+</head>
+<body>
+    <h1>Extracted Resume Information</h1>
+    <p><strong>Name:</strong> {{ data['name'] }}</p>
+    <p><strong>Email:</strong> {{ data['contact']['email'] or "Not provided" }}</p>
+    <p><strong>Phone:</strong> {{ data['contact']['phone'] or "Not provided" }}</p>
+
+    <h2>Skills</h2>
+    <ul>
+        {% for skill in data['skills'] %}
+        <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Grades</h2>
+    <ul>
+        {% for level, grade in data['grades'].items() %}
+        <li><strong>{{ level.capitalize() }}:</strong> {{ grade }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Experience</h2>
+    <ul>
+        {% for exp in data['experience'] %}
+        <li>{{ exp }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Accomplishments</h2>
+    <ul>
+        {% for accomplishment in data['accomplishments'] %}
+        <li>{{ accomplishment }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Extracurricular Activities</h2>
+    <ul>
+        {% for activity in data['extracurriculars'] %}
+        <li>{{ activity }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
