@@ -3,342 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Your Resume</title>
-    <style>
-        /* Global Styles */
-        body { font-family: 'Arial', sans-serif; background-color: #f7f7f7; margin: 0; padding: 0; }
-        h1, h2, h3 { color: #333; }
-        .container { max-width: 900px; margin: 0 auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
-        input, select, textarea { width: 100%; padding: 12px; margin: 10px 0; border-radius: 4px; border: 1px solid #ccc; font-size: 16px; }
-        .button { background-color: #4CAF50; color: white; padding: 12px 24px; border: none; border-radius: 4px; cursor: pointer; font-size: 16px; width: 100%; }
-        .button:hover { background-color: #45a049; }
-        .form-group { margin-bottom: 20px; }
-        .section { margin-bottom: 30px; }
-        .resume-container { padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
-        .resume-container h2 { color: #333; }
-        .resume-container p { line-height: 1.6; }
-        .resume-container a { color: #4CAF50; text-decoration: none; }
-        .resume-container a:hover { text-decoration: underline; }
-        .resume-content { margin-bottom: 20px; }
-        .resume-section { margin: 20px 0; }
-        .resume-header { background-color: #f4f7fc; padding: 10px; border-radius: 8px; }
-        .input-section { display: none; }
-        .input-section.active { display: block; }
-    </style>
+    <title>Resume Data</title>
 </head>
 <body>
+    <h1>Extracted Resume Information</h1>
+    <p><strong>Name:</strong> {{ data['name'] }}</p>
+    <p><strong>Email:</strong> {{ data['contact']['email'] or "Not provided" }}</p>
+    <p><strong>Phone:</strong> {{ data['contact']['phone'] or "Not provided" }}</p>
 
-<div class="container">
-    <h1>Create Your Resume</h1>
-    <div class="input-section active" id="inputSection">
-        <form id="resumeForm">
-            <!-- User Info -->
-            <div class="form-group">
-                <input type="email" id="userEmail" placeholder="Enter your email for saving progress" value="demo@example.com" required>
-                <input type="tel" id="userPhone" placeholder="Enter your phone number" value="123-456-7890" required>
-            </div>
+    <h2>Skills</h2>
+    <ul>
+        {% for skill in data['skills'] %}
+        <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
 
-            <!-- Past Experience Section -->
-            <div class="section">
-                <h2>Past Experience</h2>
-                <div id="pastExperienceSection">
-                    <input type="text" class="jobTitle" placeholder="Job Title" value="Software Developer">
-                    <input type="text" class="companyName" placeholder="Company" value="Tech Solutions Inc.">
-                    <input type="date" class="jobFrom" placeholder="From" value="2022-01-01">
-                    <input type="date" class="jobTo" placeholder="To" value="2023-12-01">
-                    <textarea class="jobDescription" placeholder="Job Description">Developed web applications and maintained client-facing systems.</textarea>
-                    <button type="button" onclick="addExperience()">Add Another Job</button>
-                </div>
-            </div>
+    <h2>Grades</h2>
+    <ul>
+        {% for level, grade in data['grades'].items() %}
+        <li><strong>{{ level.capitalize() }}:</strong> {{ grade }}</li>
+        {% endfor %}
+    </ul>
 
-            <!-- Internships Section -->
-            <div class="section">
-                <h2>Internships</h2>
-                <div id="internshipSection">
-                    <input type="text" class="internshipTitle" placeholder="Internship Title" value="Web Development Intern">
-                    <input type="text" class="internshipCompany" placeholder="Company" value="Startup X">
-                    <input type="date" class="internshipFrom" placeholder="From" value="2021-06-01">
-                    <input type="date" class="internshipTo" placeholder="To" value="2021-08-30">
-                    <textarea class="internshipDescription" placeholder="Internship Description">Assisted in creating marketing websites and learning web technologies.</textarea>
-                    <button type="button" onclick="addInternship()">Add Another Internship</button>
-                </div>
-            </div>
+    <h2>Experience</h2>
+    <ul>
+        {% for exp in data['experience'] %}
+        <li>{{ exp }}</li>
+        {% endfor %}
+    </ul>
 
-            <!-- Certifications Section -->
-            <div class="section">
-                <h2>Certifications</h2>
-                <div id="certificationsSection">
-                    <input type="text" class="certificationName" placeholder="Certification Name" value="AWS Certified Developer">
-                    <input type="url" class="certificationLink" placeholder="Certification Link" value="https://aws.amazon.com/training/certification/">
-                    <button type="button" onclick="addCertification()">Add Another Certification</button>
-                </div>
-            </div>
+    <h2>Accomplishments</h2>
+    <ul>
+        {% for accomplishment in data['accomplishments'] %}
+        <li>{{ accomplishment }}</li>
+        {% endfor %}
+    </ul>
 
-            <!-- Education Section -->
-            <div class="section">
-                <h2>Education</h2>
-                <div id="educationSection">
-                    <input type="text" class="schoolName" placeholder="School/College Name" value="ABC University">
-                    <input type="text" class="degree" placeholder="Degree" value="Bachelor of Computer Science">
-                    <input type="date" class="educationFrom" placeholder="From" value="2013-08-01">
-                    <input type="date" class="educationTo" placeholder="To" value="2017-05-01">
-                    <button type="button" onclick="addEducation()">Add Another Education</button>
-                </div>
-            </div>
-
-            <!-- Skills Section -->
-            <div class="section">
-                <h2>Skills</h2>
-                <div id="skillsSection">
-                    <input type="text" class="skill" placeholder="Skill" value="JavaScript">
-                    <button type="button" onclick="addSkill()">Add Another Skill</button>
-                </div>
-            </div>
-
-            <!-- Tools Section -->
-            <div class="section">
-                <h2>Tools</h2>
-                <div id="toolsSection">
-                    <input type="text" class="tool" placeholder="Tool" value="VS Code">
-                    <button type="button" onclick="addTool()">Add Another Tool</button>
-                </div>
-            </div>
-
-            <!-- Hobbies Section -->
-            <div class="section">
-                <h2>Hobbies</h2>
-                <div id="hobbiesSection">
-                    <input type="text" class="hobby" placeholder="Hobby" value="Coding">
-                    <button type="button" onclick="addHobby()">Add Another Hobby</button>
-                </div>
-            </div>
-
-            <!-- Accomplishments Section -->
-            <div class="section">
-                <h2>Accomplishments</h2>
-                <div id="accomplishmentsSection">
-                    <input type="text" class="accomplishment" placeholder="Accomplishment" value="Built a personal website">
-                    <button type="button" onclick="addAccomplishment()">Add Another Accomplishment</button>
-                </div>
-            </div>
-
-            <!-- Submit Button -->
-            <button type="button" class="button" onclick="generateResume()">Generate Resume</button>
-        </form>
-    </div>
-
-    <div id="resumePreview" class="resume-container" style="display:none;">
-        <div class="resume-header">
-            <h1>Resume Preview</h1>
-        </div>
-        <div id="resumeContent" class="resume-content"></div>
-        <button onclick="goBack()" class="button">Go Back</button>
-    </div>
-</div>
-
-<script>
-    // Adding new job experience
-    function addExperience() {
-        let newExperience = `
-            <input type="text" class="jobTitle" placeholder="Job Title">
-            <input type="text" class="companyName" placeholder="Company">
-            <input type="date" class="jobFrom" placeholder="From">
-            <input type="date" class="jobTo" placeholder="To">
-            <textarea class="jobDescription" placeholder="Job Description"></textarea>
-        `;
-        document.getElementById("pastExperienceSection").innerHTML += newExperience;
-    }
-
-    // Adding new internship
-    function addInternship() {
-        let newInternship = `
-            <input type="text" class="internshipTitle" placeholder="Internship Title">
-            <input type="text" class="internshipCompany" placeholder="Company">
-            <input type="date" class="internshipFrom" placeholder="From">
-            <input type="date" class="internshipTo" placeholder="To">
-            <textarea class="internshipDescription" placeholder="Internship Description"></textarea>
-        `;
-        document.getElementById("internshipSection").innerHTML += newInternship;
-    }
-
-    // Adding new certification
-    function addCertification() {
-        let newCertification = `
-            <input type="text" class="certificationName" placeholder="Certification Name">
-            <input type="url" class="certificationLink" placeholder="Certification Link">
-        `;
-        document.getElementById("certificationsSection").innerHTML += newCertification;
-    }
-
-    // Adding new education
-    function addEducation() {
-        let newEducation = `
-            <input type="text" class="schoolName" placeholder="School/College Name">
-            <input type="text" class="degree" placeholder="Degree">
-            <input type="date" class="educationFrom" placeholder="From">
-            <input type="date" class="educationTo" placeholder="To">
-        `;
-        document.getElementById("educationSection").innerHTML += newEducation;
-    }
-
-    // Adding new skill
-    function addSkill() {
-        let newSkill = `<input type="text" class="skill" placeholder="Skill">`;
-        document.getElementById("skillsSection").innerHTML += newSkill;
-    }
-
-    // Adding new tool
-    function addTool() {
-        let newTool = `<input type="text" class="tool" placeholder="Tool">`;
-        document.getElementById("toolsSection").innerHTML += newTool;
-    }
-
-    // Adding new hobby
-    function addHobby() {
-        let newHobby = `<input type="text" class="hobby" placeholder="Hobby">`;
-        document.getElementById("hobbiesSection").innerHTML += newHobby;
-    }
-
-    // Adding new accomplishment
-    function addAccomplishment() {
-        let newAccomplishment = `<input type="text" class="accomplishment" placeholder="Accomplishment">`;
-        document.getElementById("accomplishmentsSection").innerHTML += newAccomplishment;
-    }
-
-    // Generate Resume
-    function generateResume() {
-        let resumeHTML = `
-            <h2>Personal Information</h2>
-            <p>Email: ${document.getElementById("userEmail").value}</p>
-            <p>Phone: ${document.getElementById("userPhone").value}</p>
-        `;
-        
-        // Collect Past Experience
-        resumeHTML += `
-            <h2>Past Experience</h2>
-        `;
-        let jobs = document.getElementsByClassName("jobTitle");
-        for (let i = 0; i < jobs.length; i++) {
-            let jobTitle = jobs[i].value || "None";
-            let companyName = document.getElementsByClassName("companyName")[i].value || "None";
-            let jobFrom = document.getElementsByClassName("jobFrom")[i].value || "None";
-            let jobTo = document.getElementsByClassName("jobTo")[i].value || "None";
-            let jobDescription = document.getElementsByClassName("jobDescription")[i].value || "None";
-            resumeHTML += `
-                <h3>${jobTitle} at ${companyName}</h3>
-                <p>${jobFrom} - ${jobTo}</p>
-                <p>${jobDescription}</p>
-            `;
-        }
-
-        // Collect Internships
-        resumeHTML += `
-            <h2>Internships</h2>
-        `;
-        let internships = document.getElementsByClassName("internshipTitle");
-        for (let i = 0; i < internships.length; i++) {
-            let internshipTitle = internships[i].value || "None";
-            let internshipCompany = document.getElementsByClassName("internshipCompany")[i].value || "None";
-            let internshipFrom = document.getElementsByClassName("internshipFrom")[i].value || "None";
-            let internshipTo = document.getElementsByClassName("internshipTo")[i].value || "None";
-            let internshipDescription = document.getElementsByClassName("internshipDescription")[i].value || "None";
-            resumeHTML += `
-                <h3>${internshipTitle} at ${internshipCompany}</h3>
-                <p>${internshipFrom} - ${internshipTo}</p>
-                                <p>${internshipDescription}</p>
-            `;
-        }
-
-        // Collect Certifications
-        resumeHTML += `
-            <h2>Certifications</h2>
-        `;
-        let certifications = document.getElementsByClassName("certificationName");
-        for (let i = 0; i < certifications.length; i++) {
-            let certificationName = certifications[i].value || "None";
-            let certificationLink = document.getElementsByClassName("certificationLink")[i].value || "None";
-            resumeHTML += `
-                <h3>${certificationName}</h3>
-                <p><a href="${certificationLink}" target="_blank">${certificationLink}</a></p>
-            `;
-        }
-
-        // Collect Education
-        resumeHTML += `
-            <h2>Education</h2>
-        `;
-        let education = document.getElementsByClassName("schoolName");
-        for (let i = 0; i < education.length; i++) {
-            let schoolName = education[i].value || "None";
-            let degree = document.getElementsByClassName("degree")[i].value || "None";
-            let educationFrom = document.getElementsByClassName("educationFrom")[i].value || "None";
-            let educationTo = document.getElementsByClassName("educationTo")[i].value || "None";
-            resumeHTML += `
-                <h3>${degree} from ${schoolName}</h3>
-                <p>${educationFrom} - ${educationTo}</p>
-            `;
-        }
-
-        // Collect Skills
-        resumeHTML += `
-            <h2>Skills</h2>
-        `;
-        let skills = document.getElementsByClassName("skill");
-        for (let i = 0; i < skills.length; i++) {
-            let skill = skills[i].value || "None";
-            resumeHTML += `
-                <p>${skill}</p>
-            `;
-        }
-
-        // Collect Tools
-        resumeHTML += `
-            <h2>Tools</h2>
-        `;
-        let tools = document.getElementsByClassName("tool");
-        for (let i = 0; i < tools.length; i++) {
-            let tool = tools[i].value || "None";
-            resumeHTML += `
-                <p>${tool}</p>
-            `;
-        }
-
-        // Collect Hobbies
-        resumeHTML += `
-            <h2>Hobbies</h2>
-        `;
-        let hobbies = document.getElementsByClassName("hobby");
-        for (let i = 0; i < hobbies.length; i++) {
-            let hobby = hobbies[i].value || "None";
-            resumeHTML += `
-                <p>${hobby}</p>
-            `;
-        }
-
-        // Collect Accomplishments
-        resumeHTML += `
-            <h2>Accomplishments</h2>
-        `;
-        let accomplishments = document.getElementsByClassName("accomplishment");
-        for (let i = 0; i < accomplishments.length; i++) {
-            let accomplishment = accomplishments[i].value || "None";
-            resumeHTML += `
-                <p>${accomplishment}</p>
-            `;
-        }
-
-        // Display the generated resume
-        document.getElementById("resumeContent").innerHTML = resumeHTML;
-        document.getElementById("inputSection").style.display = "none";
-        document.getElementById("resumePreview").style.display = "block";
-    }
-
-    // Go back to the form
-    function goBack() {
-        document.getElementById("inputSection").style.display = "block";
-        document.getElementById("resumePreview").style.display = "none";
-    }
-</script>
-
+    <h2>Extracurricular Activities</h2>
+    <ul>
+        {% for activity in data['extracurriculars'] %}
+        <li>{{ activity }}</li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
