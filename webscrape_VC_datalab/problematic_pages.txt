@@ -1,0 +1,30 @@
+Pages where errors found:
+186
+198
+201
+251
+256
+269
+306
+350
+369
+424
+468
+476
+491
+497
+619
+
+= 15 pages missing: "Error 500"
+Each page has 20 data points.
+So: 15*20 = 300 missing data points.
+Total data points on the website: 12,673 ['Original']
+12,673 total - 300 = 12,373
+
+Hence, the Excel file has 12,373 rows.
+Total row duplicates = 4 rows
+After removal --> 12,369 rows.           ['Removed duplicates']
+In "Investor" header duplicates: 9 cells
+After removal --> 12,360                 [Investor duplicates removed]
+
+In the excel sheet I have shown improved sheet first "Investor duplicates removed".
