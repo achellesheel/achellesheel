@@ -125,8 +125,6 @@ Current board state: pawns (evaluation pipelines) advancing, knights (agent tool
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=achellesheel&theme=radical&hide_border=true&background=1A1A2E" alt="Pranav's GitHub streak stats" height="165"/>
-
 ![Followers](https://img.shields.io/github/followers/achellesheel?style=for-the-badge&logo=github&label=Followers&color=6A0DAD&labelColor=1A1A2E)
 
 </div>
