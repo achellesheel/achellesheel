@@ -10,6 +10,22 @@
 
 </div>
 
+## 🐍 The Chamber of Secrets
+
+*Something is slithering through the walls of the contribution graph...*
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/achellesheel/achellesheel/output/basilisk-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/achellesheel/achellesheel/output/basilisk-light.svg">
+  <img alt="The Basilisk devours the contribution graph" src="https://raw.githubusercontent.com/achellesheel/achellesheel/output/basilisk.svg">
+</picture>
+
+*The Basilisk only answers to its master — and it feeds on every commit.*
+
+</div>
+
 ## 🪄 The Wand Chooses the Engineer
 
 > *"Interesting... very interesting."*
@@ -41,6 +57,28 @@ I don't build demos. I build things that have to **work when it matters** — wi
 | 🌀 **The Maze** | [llm-red-team-eval](https://github.com/achellesheel/llm-red-team-eval) | Automated LLM red-teaming — hallucination detection, prompt-injection resistance, refusal analysis. Built to find the trap before an attacker does. |
 | 📖 **The Restricted Section** | [knowledge-mcp-server](https://github.com/achellesheel/knowledge-mcp-server) | Local MCP server + CLI turning PDFs/notes into a semantic knowledge base — FAISS + sentence-transformers, hybrid BM25/dense search, cross-encoder reranking. |
 | ⚔️ **The Champion's Duel** | [search-ranking-service](https://github.com/achellesheel/search-ranking-service) | Production search ranking microservice — BM25 + semantic reranking, FastAPI, Docker. No stunning spells, just results that rank correctly. |
+
+<div align="center">
+
+![divider](https://readme-typing-svg.demolab.com/?font=MedievalSharp&size=20&duration=1&pause=100000&color=8A2BE2&center=true&vCenter=true&width=700&height=40&lines=%E2%9D%A6+%E2%94%80%E2%94%80%E2%94%80+%E2%9A%A1+%E2%94%80%E2%94%80%E2%94%80+%E2%9D%A6)
+
+</div>
+
+## 🎓 Hogwarts Coursework — GUVI-HCL Data Science (Batch DS-C-WE-E-B148)
+
+| Project | What it does |
+|---|---|
+| [book-recommendation-system](https://github.com/achellesheel/book-recommendation-system) | Content-based + collaborative filtering book recommender with Streamlit UI |
+| [garbage-classification-deep-learning](https://github.com/achellesheel/garbage-classification-deep-learning) | Deep learning image classifier for waste sorting — CNN with transfer learning |
+| [real-estate-investment-advisor](https://github.com/achellesheel/real-estate-investment-advisor) | Real estate investment analysis tool — ROI calculation, market comparison, risk assessment |
+| [brand-visibility-project](https://github.com/achellesheel/brand-visibility-project) | Brand visibility analysis using NLP — sentiment analysis, media monitoring, competitive intelligence |
+| [brickview2.0](https://github.com/achellesheel/brickview2.0) | Property analytics dashboard — SQLite backend, data visualization |
+
+## ✍️ The Daily Prophet — Articles
+
+| Piece | Link |
+|---|---|
+| Women's Day 2026 | [achellesheel/womens_day_2026](https://github.com/achellesheel/womens_day_2026) |
 
 <div align="center">
 
@@ -80,44 +118,6 @@ Current board state: pawns (evaluation pipelines) advancing, knights (agent tool
 <div align="center">
 
 ![divider](https://readme-typing-svg.demolab.com/?font=MedievalSharp&size=20&duration=1&pause=100000&color=8A2BE2&center=true&vCenter=true&width=700&height=40&lines=%E2%9D%A6+%E2%94%80%E2%94%80%E2%94%80+%E2%9A%A1+%E2%94%80%E2%94%80%E2%94%80+%E2%9D%A6)
-
-</div>
-
-## 🎓 Hogwarts Coursework — GUVI-HCL Data Science (Batch DS-C-WE-E-B148)
-
-| Project | What it does |
-|---|---|
-| [book-recommendation-system](https://github.com/achellesheel/book-recommendation-system) | Content-based + collaborative filtering book recommender with Streamlit UI |
-| [garbage-classification-deep-learning](https://github.com/achellesheel/garbage-classification-deep-learning) | Deep learning image classifier for waste sorting — CNN with transfer learning |
-| [real-estate-investment-advisor](https://github.com/achellesheel/real-estate-investment-advisor) | Real estate investment analysis tool — ROI calculation, market comparison, risk assessment |
-| [brand-visibility-project](https://github.com/achellesheel/brand-visibility-project) | Brand visibility analysis using NLP — sentiment analysis, media monitoring, competitive intelligence |
-| [brickview2.0](https://github.com/achellesheel/brickview2.0) | Property analytics dashboard — SQLite backend, data visualization |
-
-## ✍️ The Daily Prophet — Articles
-
-| Piece | Link |
-|---|---|
-| Women's Day 2026 | [achellesheel/womens_day_2026](https://github.com/achellesheel/womens_day_2026) |
-
-<div align="center">
-
-![divider](https://readme-typing-svg.demolab.com/?font=MedievalSharp&size=20&duration=1&pause=100000&color=8A2BE2&center=true&vCenter=true&width=700&height=40&lines=%E2%9D%A6+%E2%94%80%E2%94%80%E2%94%80+%E2%9A%A1+%E2%94%80%E2%94%80%E2%94%80+%E2%9D%A6)
-
-</div>
-
-## 🐍 The Chamber of Secrets
-
-*Something is slithering through the walls of the contribution graph...*
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/achellesheel/achellesheel/output/basilisk-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/achellesheel/achellesheel/output/basilisk-light.svg">
-  <img alt="The Basilisk devours the contribution graph" src="https://raw.githubusercontent.com/achellesheel/achellesheel/output/basilisk.svg">
-</picture>
-
-*The Basilisk only answers to its master — and it feeds on every commit.*
 
 </div>
 
