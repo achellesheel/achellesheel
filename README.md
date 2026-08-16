@@ -1,6 +1,6 @@
 <div align="center">
 
-# Pranav Chaturvedi
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Cinzel+Decorative&size=40&duration=3500&pause=800&color=D4AF37&center=true&vCenter=true&width=800&height=100&lines=PRANAV+CHATURVEDI;THE+BOY+WHO+SHIPS;MASTER+OF+PRODUCTION+ML;ACCIO+PRODUCTION+SYSTEMS)](https://git.io/typing-svg)
 
 *"Some are born great, some hack their way into greatness."*
 
