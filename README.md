@@ -1,11 +1,12 @@
 <div align="center">
 
-# ⚡ PRANAV CHATURVEDI
-### *Master of the Dark Arts (of Production ML)*
+![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&animation=fadeIn)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Cinzel+Decorative&size=40&duration=3500&pause=800&color=D4AF37&center=true&vCenter=true&width=800&height=100&lines=PRANAV+CHATURVEDI;THE+BOY+WHO+SHIPS;MASTER+OF+PRODUCTION+ML;ACCIO+PRODUCTION+SYSTEMS)](https://git.io/typing-svg)
 
 *"Some are born great, some hack their way into greatness."*
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=1a1a2e&height=150&section=header&text=Ministry%20of%20Machine%20Learning&fontSize=36&fontColor=D4AF37&animation=fadeIn&fontAlignY=40)
+![divider](https://readme-typing-svg.demolab.com/?font=MedievalSharp&size=20&duration=1&pause=100000&color=8A2BE2&center=true&vCenter=true&width=700&height=40&lines=%E2%9D%A6+%E2%94%80%E2%94%80%E2%94%80+%E2%9A%A1+%E2%94%80%E2%94%80%E2%94%80+%E2%9D%A6)
 
 </div>
 
@@ -23,7 +24,11 @@
 
 I don't build demos. I build things that have to **work when it matters** — with evaluation harnesses, guardrails, and retrieval that doesn't hallucinate its way through the exam.
 
----
+<div align="center">
+
+![divider](https://readme-typing-svg.demolab.com/?font=MedievalSharp&size=20&duration=1&pause=100000&color=8A2BE2&center=true&vCenter=true&width=700&height=40&lines=%E2%9D%A6+%E2%94%80%E2%94%80%E2%94%80+%E2%9A%A1+%E2%94%80%E2%94%80%E2%94%80+%E2%9D%A6)
+
+</div>
 
 ## 🏆 The Triwizard Tournament — Featured Projects
 
@@ -37,7 +42,11 @@ I don't build demos. I build things that have to **work when it matters** — wi
 | 📖 **The Restricted Section** | [knowledge-mcp-server](https://github.com/achellesheel/knowledge-mcp-server) | Local MCP server + CLI turning PDFs/notes into a semantic knowledge base — FAISS + sentence-transformers, hybrid BM25/dense search, cross-encoder reranking. |
 | ⚔️ **The Champion's Duel** | [search-ranking-service](https://github.com/achellesheel/search-ranking-service) | Production search ranking microservice — BM25 + semantic reranking, FastAPI, Docker. No stunning spells, just results that rank correctly. |
 
----
+<div align="center">
+
+![divider](https://readme-typing-svg.demolab.com/?font=MedievalSharp&size=20&duration=1&pause=100000&color=8A2BE2&center=true&vCenter=true&width=700&height=40&lines=%E2%9D%A6+%E2%94%80%E2%94%80%E2%94%80+%E2%9A%A1+%E2%94%80%E2%94%80%E2%94%80+%E2%9D%A6)
+
+</div>
 
 ## 📜 Spells & Charms Cast Daily
 
@@ -52,7 +61,11 @@ I don't build demos. I build things that have to **work when it matters** — wi
 | **Riddikulus** | Turning production incidents into a five-minute fix, not a five-hour fire drill |
 | **Alohomora** | Reverse-engineering undocumented APIs when the manual doesn't exist |
 
----
+<div align="center">
+
+![divider](https://readme-typing-svg.demolab.com/?font=MedievalSharp&size=20&duration=1&pause=100000&color=8A2BE2&center=true&vCenter=true&width=700&height=40&lines=%E2%9D%A6+%E2%94%80%E2%94%80%E2%94%80+%E2%9A%A1+%E2%94%80%E2%94%80%E2%94%80+%E2%9D%A6)
+
+</div>
 
 ## 🧹 The Broom — Built for Speed
 
@@ -64,7 +77,11 @@ I don't play checkers with side projects. Every move is calculated toward one en
 
 Current board state: pawns (evaluation pipelines) advancing, knights (agent tooling) already deep in enemy territory, and the queen (a full production-grade agent stack) coming out soon.
 
----
+<div align="center">
+
+![divider](https://readme-typing-svg.demolab.com/?font=MedievalSharp&size=20&duration=1&pause=100000&color=8A2BE2&center=true&vCenter=true&width=700&height=40&lines=%E2%9D%A6+%E2%94%80%E2%94%80%E2%94%80+%E2%9A%A1+%E2%94%80%E2%94%80%E2%94%80+%E2%9D%A6)
+
+</div>
 
 ## 🎓 Hogwarts Coursework — GUVI-HCL Data Science (Batch DS-C-WE-E-B148)
 
@@ -82,7 +99,27 @@ Current board state: pawns (evaluation pipelines) advancing, knights (agent tool
 |---|---|
 | Women's Day 2026 | [achellesheel/womens_day_2026](https://github.com/achellesheel/womens_day_2026) |
 
----
+<div align="center">
+
+![divider](https://readme-typing-svg.demolab.com/?font=MedievalSharp&size=20&duration=1&pause=100000&color=8A2BE2&center=true&vCenter=true&width=700&height=40&lines=%E2%9D%A6+%E2%94%80%E2%94%80%E2%94%80+%E2%9A%A1+%E2%94%80%E2%94%80%E2%94%80+%E2%9D%A6)
+
+</div>
+
+## 🐍 The Chamber of Secrets
+
+*Something is slithering through the walls of the contribution graph...*
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/achellesheel/achellesheel/output/basilisk-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/achellesheel/achellesheel/output/basilisk-light.svg">
+  <img alt="The Basilisk devours the contribution graph" src="https://raw.githubusercontent.com/achellesheel/achellesheel/output/basilisk.svg">
+</picture>
+
+*The Basilisk only answers to its master — and it feeds on every commit.*
+
+</div>
 
 ## 🔮 The Marauder's Map
 
@@ -103,7 +140,11 @@ Current board state: pawns (evaluation pipelines) advancing, knights (agent tool
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
 
----
+<div align="center">
+
+![divider](https://readme-typing-svg.demolab.com/?font=MedievalSharp&size=20&duration=1&pause=100000&color=8A2BE2&center=true&vCenter=true&width=700&height=40&lines=%E2%9D%A6+%E2%94%80%E2%94%80%E2%94%80+%E2%9A%A1+%E2%94%80%E2%94%80%E2%94%80+%E2%9D%A6)
+
+</div>
 
 <div align="center">
 
@@ -115,6 +156,6 @@ Current board state: pawns (evaluation pipelines) advancing, knights (agent tool
 *"It is our choices, Harry, that show what we truly are, far more than our abilities."*
 **— and my choice is to ship.**
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=1a1a2e&height=100&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
 
 </div>
