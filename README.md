@@ -1,20 +1,12 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&animation=fadeIn)
-
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=Cinzel+Decorative&size=40&duration=3500&pause=800&color=D4AF37&center=true&vCenter=true&width=800&height=100&lines=PRANAV+CHATURVEDI;THE+BOY+WHO+SHIPS;MASTER+OF+PRODUCTION+ML;ACCIO+PRODUCTION+SYSTEMS)](https://git.io/typing-svg)
+# Pranav Chaturvedi
 
 *"Some are born great, some hack their way into greatness."*
-
-![divider](https://readme-typing-svg.demolab.com/?font=MedievalSharp&size=20&duration=1&pause=100000&color=8A2BE2&center=true&vCenter=true&width=700&height=40&lines=%E2%9D%A6+%E2%94%80%E2%94%80%E2%94%80+%E2%9A%A1+%E2%94%80%E2%94%80%E2%94%80+%E2%9D%A6)
-
-</div>
 
 ## 🐍 The Chamber of Secrets
 
 *Something is slithering through the walls of the contribution graph...*
-
-<div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/achellesheel/achellesheel/output/basilisk-dark.svg">
@@ -24,25 +16,11 @@
 
 *The Basilisk only answers to its master — and it feeds on every commit.*
 
-</div>
-
-## 🪄 The Wand Chooses the Engineer
-
-> *"Interesting... very interesting."*
-
-| Attribute | Reading |
-|---|---|
-| **Core** | Python — reliable, unbreakable, chosen by every serious wizard |
-| **Wood** | LangChain / LangGraph — flexible, bends to whatever the problem demands |
-| **Length & Loyalty** | Full-stack, end-to-end — this wand does not do half-finished spells |
-| **House** | Sorted between **Ravenclaw** (obsessed with measurable truth) and **Slytherin** (ambition, no shortcuts) |
-| **Patronus** | A production system that survives contact with real users |
-
-I don't build demos. I build things that have to **work when it matters** — with evaluation harnesses, guardrails, and retrieval that doesn't hallucinate its way through the exam.
-
 <div align="center">
 
 ![divider](https://readme-typing-svg.demolab.com/?font=MedievalSharp&size=20&duration=1&pause=100000&color=8A2BE2&center=true&vCenter=true&width=700&height=40&lines=%E2%9D%A6+%E2%94%80%E2%94%80%E2%94%80+%E2%9A%A1+%E2%94%80%E2%94%80%E2%94%80+%E2%9D%A6)
+
+</div>
 
 </div>
 
@@ -79,6 +57,26 @@ I don't build demos. I build things that have to **work when it matters** — wi
 | Piece | Link |
 |---|---|
 | Women's Day 2026 | [achellesheel/womens_day_2026](https://github.com/achellesheel/womens_day_2026) |
+
+<div align="center">
+
+![divider](https://readme-typing-svg.demolab.com/?font=MedievalSharp&size=20&duration=1&pause=100000&color=8A2BE2&center=true&vCenter=true&width=700&height=40&lines=%E2%9D%A6+%E2%94%80%E2%94%80%E2%94%80+%E2%9A%A1+%E2%94%80%E2%94%80%E2%94%80+%E2%9D%A6)
+
+</div>
+
+## 🪄 The Wand Chooses the Engineer
+
+> *"Interesting... very interesting."*
+
+| Attribute | Reading |
+|---|---|
+| **Core** | Python — reliable, unbreakable, chosen by every serious wizard |
+| **Wood** | LangChain / LangGraph — flexible, bends to whatever the problem demands |
+| **Length & Loyalty** | Full-stack, end-to-end — this wand does not do half-finished spells |
+| **House** | Sorted between **Ravenclaw** (obsessed with measurable truth) and **Slytherin** (ambition, no shortcuts) |
+| **Patronus** | A production system that survives contact with real users |
+
+I don't build demos. I build things that have to **work when it matters** — with evaluation harnesses, guardrails, and retrieval that doesn't hallucinate its way through the exam.
 
 <div align="center">
 
