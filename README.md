@@ -25,6 +25,26 @@ I care about production-grade AI: systems with real evaluation harnesses, real r
 
 ---
 
+### 🎓 Coursework — GUVI-HCL Data Science (Batch DS-C-WE-E-B148)
+
+| Project | What it does |
+|---|---|
+| [book-recommendation-system](https://github.com/achellesheel/book-recommendation-system) | Content-based + collaborative filtering book recommender with Streamlit UI |
+| [garbage-classification-deep-learning](https://github.com/achellesheel/garbage-classification-deep-learning) | Deep learning image classifier for waste sorting — CNN with transfer learning |
+| [real-estate-investment-advisor](https://github.com/achellesheel/real-estate-investment-advisor) | Real estate investment analysis tool — ROI calculation, market comparison, risk assessment |
+| [brand-visibility-project](https://github.com/achellesheel/brand-visibility-project) | Brand visibility analysis using NLP — sentiment analysis, media monitoring, competitive intelligence |
+| [brickview2.0](https://github.com/achellesheel/brickview2.0) | Property analytics dashboard — SQLite backend, data visualization |
+
+---
+
+### ✍️ Articles
+
+| Piece | Link |
+|---|---|
+| Women's Day 2026 | [achellesheel/womens_day_2026](https://github.com/achellesheel/womens_day_2026) |
+
+---
+
 ### Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
