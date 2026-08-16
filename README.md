@@ -66,17 +66,17 @@
 
 ## 🪄 The Wand Chooses the Engineer
 
-> *"Interesting... very interesting."*
+<div align="center">
 
-| Attribute | Reading |
-|---|---|
-| **Core** | Python — reliable, unbreakable, chosen by every serious wizard |
-| **Wood** | LangChain / LangGraph — flexible, bends to whatever the problem demands |
-| **Length & Loyalty** | Full-stack, end-to-end — this wand does not do half-finished spells |
-| **House** | Sorted between **Ravenclaw** (obsessed with measurable truth) and **Slytherin** (ambition, no shortcuts) |
-| **Patronus** | A production system that survives contact with real users |
+![Core](https://img.shields.io/badge/Core-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Wood](https://img.shields.io/badge/Wood-LangChain%20%2F%20LangGraph-1C3C3C?style=for-the-badge)
+![Loyalty](https://img.shields.io/badge/Loyalty-Full--Stack%2C%20End--to--End-8B0000?style=for-the-badge)
+![House](https://img.shields.io/badge/House-Slytherin%20Ambition%20%C2%B7%20Ravenclaw%20Standards-1B4D3E?style=for-the-badge)
+![Patronus](https://img.shields.io/badge/Patronus-Production--Grade%20Systems-D4AF37?style=for-the-badge)
 
-I don't build demos. I build things that have to **work when it matters** — with evaluation harnesses, guardrails, and retrieval that doesn't hallucinate its way through the exam.
+</div>
+
+I don't build demos. I build things that **work when it matters.**
 
 <div align="center">
 
@@ -86,16 +86,14 @@ I don't build demos. I build things that have to **work when it matters** — wi
 
 ## 📜 Spells & Charms Cast Daily
 
-| Incantation | What It Actually Does |
-|---|---|
-| **Accio Data** | Retrieval-augmented generation — pulling exactly the right context, nothing extraneous |
-| **Protego** | Input validation, guardrails, prompt-injection defense |
-| **Legilimens** | LLM evaluation & interpretability — reading the model's mind before I trust its answer |
-| **Expecto Patronum** | Error handling and graceful fallback under real-world load |
-| **Wingardium Leviosa** | CI/CD — shipping the thing, not just running it on `localhost` |
-| **Confundo** | Adversarial testing, red-teaming, breaking my own systems before someone else does |
-| **Riddikulus** | Turning production incidents into a five-minute fix, not a five-hour fire drill |
-| **Alohomora** | Reverse-engineering undocumented APIs when the manual doesn't exist |
+- 🪄 **Accio Data** — pulls exactly the right context, nothing extraneous
+- 🛡️ **Protego** — input validation, guardrails, prompt-injection defense
+- 🧠 **Legilimens** — LLM evaluation & interpretability
+- 🕊️ **Expecto Patronum** — graceful fallback under real-world load
+- 🧹 **Wingardium Leviosa** — CI/CD, shipped past `localhost`
+- 🌀 **Confundo** — adversarial red-teaming, breaking it before someone else does
+- 😄 **Riddikulus** — five-minute incident fix, not a five-hour fire drill
+- 🔓 **Alohomora** — reverse-engineering APIs with no manual
 
 <div align="center">
 
@@ -105,13 +103,19 @@ I don't build demos. I build things that have to **work when it matters** — wi
 
 ## 🧹 The Broom — Built for Speed
 
-Firebolt-class iteration: containerized, versioned, and evaluated on every commit — Docker, Kubernetes, MLflow tracking every experiment so nothing gets lost mid-flight. No Nimbus 2000 nostalgia here — if it's not fast enough to keep up, it doesn't make the team.
+<div align="center">
+
+![Docker](https://img.shields.io/badge/Containerized-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![K8s](https://img.shields.io/badge/Orchestrated-Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![MLflow](https://img.shields.io/badge/Tracked-MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
+
+</div>
+
+Firebolt-class, not Nimbus 2000 nostalgia — if it's not fast enough to keep up, it doesn't make the team.
 
 ## ♟️ Wizard's Chess — Current Strategy
 
-I don't play checkers with side projects. Every move is calculated toward one endgame: **agentic AI systems that are measured, monitored, and trusted in production** — not proof-of-concepts that get sacrificed the moment someone asks "but does it actually work?"
-
-Current board state: pawns (evaluation pipelines) advancing, knights (agent tooling) already deep in enemy territory, and the queen (a full production-grade agent stack) coming out soon.
+**Endgame: agentic AI systems that are measured, monitored, and trusted in production.** No checkers with side projects — pawns (evaluation pipelines) advancing, knights (agent tooling) deep in enemy territory, queen (full production-grade agent stack) coming out soon.
 
 <div align="center">
 
