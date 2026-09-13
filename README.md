@@ -51,6 +51,7 @@
 | [real-estate-investment-advisor](https://github.com/achellesheel/real-estate-investment-advisor) | Real estate investment analysis tool — ROI calculation, market comparison, risk assessment |
 | [brand-visibility-project](https://github.com/achellesheel/brand-visibility-project) | Brand visibility analysis using NLP — sentiment analysis, media monitoring, competitive intelligence |
 | [brickview2.0](https://github.com/achellesheel/brickview2.0) | Property analytics dashboard — SQLite backend, data visualization |
+| [omnifeedback-ai](https://github.com/achellesheel/omnifeedback-ai) | Capstone: enterprise feedback-triage platform — SQL star schema, TF-IDF/K-Means clustering, PyTorch BiLSTM + transfer-learned DistilBERT urgency scoring, BERT NER/BART summarization, GenAI copilot, deployed multi-page Streamlit app |
 
 ## ✍️ The Daily Prophet — Articles
 
