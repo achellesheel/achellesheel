@@ -24,6 +24,20 @@
 
 </div>
 
+## 🧱 The Room of Requirement — Backend, APIs & Node.js
+
+*Whatever the system needs, it becomes — here is the server-side work, with the bugs that shaped it.*
+
+| Project | Stack | What it does | The Scar — What Broke → What I Did |
+|---|---|---|---|
+| [url-shortner](https://github.com/achellesheel/url-shortner) | **Node.js · Express 5 · MongoDB (Mongoose) · EJS** | REST-style URL shortener: `POST /url` generates a unique short ID, `GET /url/:shortId` redirects, and every click is logged (timestamp + user-agent) for a per-link analytics page and a click-count dashboard. | The **Generate** button silently did nothing: a one-character typo (`<formb`) meant no form existed, and once fixed, the API returned `400` because Express only had `express.json()` and browsers send form-encoded bodies, so `req.body` was empty. Added `express.urlencoded()`. 12 bugs documented in all. [Full write-up →](https://achellesheel.github.io/url-shortner/) |
+
+<div align="center">
+
+![divider](https://readme-typing-svg.demolab.com/?font=MedievalSharp&size=20&duration=1&pause=100000&color=8A2BE2&center=true&vCenter=true&width=700&height=40&lines=%E2%9D%A6+%E2%94%80%E2%94%80%E2%94%80+%E2%9A%A1+%E2%94%80%E2%94%80%E2%94%80+%E2%9D%A6)
+
+</div>
+
 ## 🏆 The Triwizard Tournament — Agent Loops & RAG Systems
 
 *Every champion carries a scar. Here's what each one actually broke, and what I did about it.*
@@ -42,7 +56,7 @@
 
 </div>
 
-## 🎓 Hogwarts Coursework — GUVI-HCL Data Science (Batch DS-C-WE-E-B148)
+## 🎓 Hogwarts Coursework
 
 | Project | What it does | The Scar |
 |---|---|---|
@@ -147,6 +161,9 @@ Firebolt-class, not Nimbus 2000 nostalgia — if it's not fast enough to keep up
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 <div align="center">
 
