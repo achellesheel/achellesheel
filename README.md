@@ -72,6 +72,7 @@
 | Piece | Link |
 |---|---|
 | Women's Day 2026 | [achellesheel/womens_day_2026](https://github.com/achellesheel/womens_day_2026) |
+| The Vishwaguru Mirage | [achellesheel.github.io/vishwaguru_mirage](https://achellesheel.github.io/vishwaguru_mirage/) · [repo](https://github.com/achellesheel/vishwaguru_mirage) |
 
 <div align="center">
 
